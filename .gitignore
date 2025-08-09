@@ -27,3 +27,53 @@ data/processed/
 
 # Notebooks checkpoints
 .ipynb_checkpoints/
+
+
+# Environments
+.venv/
+.venv312/
+env/
+.envrc
+
+# Caches
+__pycache__/
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.cache/
+.coverage
+coverage.xml
+.nox/
+.tox/
+dist/
+build/
+site/
+htmlcov/
+
+# OS files
+Thumbs.db
+Icon?
+
+# Data format outputs
+data/*.parquet
+data/*.feather
+data/*.json
+
+# IDE/editor
+.vscode/
+.idea/
+*.iml
+
+# Python artifacts
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+*.egg
+
+# Excel and similar (generated during tests)
+*.xlsx
+*.xls
+*.xlsm
+*.numbers
+*.csv.tmp
