@@ -1,0 +1,19 @@
+[project]
+name = "fantasy-draft-helper"
+version = "0.1.0"
+description = "Fantasy NBA Draft Assistant for ESPN H2H Points"
+requires-python = ">=3.11"
+
+[tool.ruff]
+line-length = 100
+select = ["E","F","I","B","UP","C90"]
+
+[tool.isort]
+profile = "black"
+line_length = 100
+
+[tool.pyright]
+include = ["src"]
+pythonVersion = "3.11"
+reportMissingTypeStubs = false
+reportMissingImports = false

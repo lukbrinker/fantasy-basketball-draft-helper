@@ -1,0 +1,29 @@
+# Environments
+.venv/
+.venv312/
+
+# Caches
+__pycache__/
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+
+# OS files
+.DS_Store
+
+# Streamlit
+.streamlit/
+
+# Local state
+.env
+.env.*
+draft_state.json
+
+# Data outputs (generated)
+data/projections.csv
+data/last_season.csv
+data/adp.csv
+data/processed/
+
+# Notebooks checkpoints
+.ipynb_checkpoints/
